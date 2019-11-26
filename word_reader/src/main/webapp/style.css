@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+body{
+	font-family: Arial, Helvetica, sans-seriff;
+	font-siza:15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color: #f4f4f4;
+}
+/*Global settings*/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.button{
+	height: 38px;
+	background: #e8491d;
+	border:0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:#ffffff;
+}
+
+
+.Homebutton button{
+	height: 38px;
+	background: #e8491d;
+	border:0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:#ffffff;
+	float: right;
+}
+
+
+/*Header*/
+header{
+	background:#35424a;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+/*showcase*/
+#showcase{
+	min-height: 400px;
+	text-align: center;
+	color: blue;
+}
+
+p{
+	padding-left: 25px;
+	}
+
+/*table*/
+.contenttable{
+	border-collapse: collapse;
+	margin: 25px;
+	min-width: 400px;
+	margin-left:auto; 
+    margin-right:auto;
+    margin-bottom: 100px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0,0,20px #A8A8A8;
+}
+
+.contenttable thead th{
+	background-color: #e8491d;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.contenttable th,.contenttable tr{
+	padding: 12px,15px;
+	
+}
+.contenttable tbody tr{
+	border-bottom: 1px solid #dddddd;
+		text-align: center;
+	
+}
+
+.contenttable tbody tr:nth-of-type(even){
+	background-color: #A8A8A8;
+	}
+	
+.contenttable tbody tr:last-child{
+	border-bottom-color: #e8491d;
+	border-bottom-width: 3px;
+	}

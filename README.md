@@ -4,7 +4,7 @@ Web application that counts the number of unique words in a file input. This tak
 
 The User can navigate back from the erroe page using Home button.
 
-#Implementation Details:
+Implementation Details:
 Programming Language: Java
 Fornt End Design: HTML, CSS
 Framework: Spring Boot
